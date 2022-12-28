@@ -1,0 +1,11 @@
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 25%;}
+  .col-2 {width: 33.3%;}
+  .col-3 {width: 50%;}
+  .col-4 {width: 75%;}
+  .col-3 {width: 100%;}
+  

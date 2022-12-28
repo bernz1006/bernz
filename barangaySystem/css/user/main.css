@@ -1,0 +1,6 @@
+.img {
+    background-image: url("../../img/palayancity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: overlay;
+}

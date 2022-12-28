@@ -1,0 +1,75 @@
+body{
+    font-family: arial;
+    font-size: 17px;
+ 
+}
+input[type="button"]{
+    color: blue;
+    text-align: center;
+}
+.container .add{
+    font-size: 20px; 
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background: rgb(6, 6, 239);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.container .add:hover{
+    opacity: .8;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content{
+    margin: 5% auto;
+    width: 70%;
+    animation-name:modalopen;
+    animation-duration:1s;
+    border-radius: 30px;
+}
+.modal-header{
+    padding: 15px;
+    border-radius: 30px  30px 0px 0px;
+}
+.modal-body{
+    padding: 10px;
+}
+.input_box #submit{
+    background-color: blue;
+    font-size: 20px;
+    color:white;
+}
+.input_box #submit:hover{
+    background-color: skyblue;
+    font-size: 20px;
+    color:white;
+
+}
+.closeBtn{
+    color: grey;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.closeBtn:hover,.closeBtn:focus{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+@keyframes modalopen {
+    from{opacity: 0}
+    to{opacity: 1}
+    
+}

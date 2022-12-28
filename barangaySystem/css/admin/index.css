@@ -1,0 +1,93 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+body{
+background-color: lightseagreen;
+}
+.container{
+
+background: none;
+top: 50%;
+left: 50%;
+position:absolute;
+transform: translate(-50%, -50%);
+border-radius: 50px;
+
+
+}
+.row{
+background: white;
+border-radius: 30px;
+}
+img{
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+input[type=text], input[type=password]{
+font-size: 14px;
+text-decoration: none;
+color: rgb(36, 39, 0);
+opacity: 0.8;
+border: none;
+border-bottom: 2px solid black;
+font-weight: bold;
+
+}
+input[type=submit]{
+font-size: 14px;
+text-decoration: none;
+color: rgb(248, 248, 246);
+opacity: 0.8;
+font-weight: bold;
+font-style: italic;
+letter-spacing: 1px;
+}
+.btn1{
+border: none;
+outline: none;
+height: 50px;
+width: 100%;
+background: linear-gradient( 135deg, #585303, #edba04);
+color:white;
+border-radius: 4px;
+font-weight: bold;
+}
+.btn1:hover{
+background: linear-gradient( -135deg, #585303, #edba04);
+border: 1px solid;
+color: black;
+}
+a {
+font-size: 14px;
+text-decoration: none;
+color: rgb(36, 39, 0);
+opacity: 0.8;
+font-weight: bold;
+font-style: italic;
+}
+
+a:hover{
+color: rgb(0, 0, 0);
+opacity: 1;
+}
+.eye{
+position: flex;
+}
+#hide1{
+display: none;
+}
+.toggleBtn{
+position: absolute;
+top: 25px;
+right:10px;
+width: 34px;
+height: 34px;
+background: none;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
